@@ -1,5 +1,5 @@
 (function () {
     "use strict";
 }());
-let age = prompt('Сколько тебе лет?', '');
-console.log(age);
+let numberOfFilms = prompt('Сколько фильмов вы уже посмотрели?', '');
+console.log(numberOfFilms);
