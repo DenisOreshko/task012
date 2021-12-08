@@ -19,5 +19,4 @@ movie = prompt('Один из последних просмотренных фи
 rating = prompt('На сколько оцените его', '');
 personalMovieDB.movies[movie] = rating;
 
-console.log(personalMovieDB.count);
-console.log(personalMovieDB.movies);
+console.log(personalMovieDB);
