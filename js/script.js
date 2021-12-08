@@ -19,7 +19,7 @@ let personalMovieDB = {
 let movie,
     rating;
     
-for (let i = 1; i < 3; i++) {
+for (let i = 0; i < 2; i++) {
 
     do {
         movie = prompt('Один из последних просмотренных фильмов?', '');
