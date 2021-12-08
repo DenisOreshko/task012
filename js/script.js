@@ -33,13 +33,13 @@ for (let i = 0; i < 2; i++) {
 }
 
 if (personalMovieDB.count < 10) {
-    alert("Просмотрено довольно мало фильмов");
+    console.log("Просмотрено довольно мало фильмов");
 } else if (personalMovieDB.count < 30) {
-    alert("Вы классический зритель");
+    console.log("Вы классический зритель");
 } else if (personalMovieDB.count > 30) {
-    alert("Вы киноман");
+    console.log("Вы киноман");
 } else {
-    alert("Произошла ошибка");
+    console.log("Произошла ошибка");
 }
 
 console.log(personalMovieDB);
