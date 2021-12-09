@@ -54,7 +54,6 @@ function detectPersonalLevel() {
 
 detectPersonalLevel();
 
-
 function showMyDB(){
     if(!personalMovieDB.privat){
         console.log(personalMovieDB);
@@ -63,6 +62,9 @@ function showMyDB(){
 
 function writeYourGenres(){
     for (let i = 0; i < 3; i++) {
-        personalMovieDB.genres[i] = +prompt("Ваш любимый жанр под номером ${номер по порядку}", '');
+        personalMovieDB.genres[i] = prompt(`Ваш любимый жанр под номером ${i+1}`, '');
     }
 }
+
+writeYourGenres();
+showMyDB();
