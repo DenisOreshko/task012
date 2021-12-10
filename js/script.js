@@ -54,12 +54,21 @@ let personalMovieDB = {
         if (!this.privat) {
             console.log(this);
         }
+    },
+    toggleVisibleMyDB(){
+        if(this.privat){
+            this.privat = false;
+        } else{
+            this.privat = true;
+        }
     }
 };
 personalMovieDB.rememberMyFilms();
 personalMovieDB.detectPersonalLevel();
 personalMovieDB.writeYourGenres();
+personalMovieDB.toggleVisibleMyDB();
 personalMovieDB.showMyDB();
+
 
 /* 
 let movie,
